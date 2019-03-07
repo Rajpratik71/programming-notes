@@ -1,81 +1,81 @@
-# 第二章-咋学编程
+# Chapter 2 - Dropout Programming
 
-前边说了那么多编程的基本概念，那我怎么开始学习呢？
+I talked about the basic concepts of programming so much, so how do I start learning?
 
-## 听说编程很难，那我能学会吗
+## I heard that programming is difficult, can I learn?
 
-你觉得说中文难么？汉语是世界上最难学习掌握的语言之一，但你不是每天都能流利地用普通话和别人聊天么？任何一种计算机语言的难度都不会超过英语，更比不上汉语，编程这件事的难度基本上等价于指挥IQ<20的壮汉。那么你认为你能不能学会编程呢？
+Do you think it is difficult to speak Chinese? Chinese is one of the most difficult languages ​​to learn in the world, but can you not fluently talk to others in Mandarin every day? The difficulty of any kind of computer language will not exceed English, and it is even less than that of Chinese. The difficulty of programming is basically equivalent to the strong man who commands IQ<20. So do you think you can learn to program?
 
-请记住学会和学好是两个层次，就像中学生作文和报刊出版物之间的差距。达到学会那个程度，只要有小学三年级的知识基础就可以开始了，也就是识字就行。而如果要学好，那需要初高中毕业的文化水准，也就是应该略懂英文和解析几何。当然还有更高的技术层次，比如在相当于职业作家的水平上，你将被称为专业程序员。而如果你被称为大师，那就是诺贝尔文学奖，当然，抵达那个程度需要付出艰苦的努力。
+Remember that learning and learning are two levels, just like the gap between middle school students' compositions and newspaper publications. To reach the level of learning, as long as you have the knowledge base of the third grade of elementary school, you can start, that is, literacy. If you want to learn well, you need a cultural level of junior high school graduation, that is, you should understand English and analytic geometry. Of course there is a higher level of technology, for example, at the level of a professional writer, you will be called a professional programmer. And if you are called a master, it is the Nobel Prize in Literature. Of course, it takes a lot of hard work to reach that level.
 
-### 我的英语很差，怎么办
+### My English is very poor, what should I do?
 
-无法回避的事实，当今世界中的信息技术，绝大部分是欧美人的发明，更准确地说，是美国人的功劳。顺理成章的，各种资料文档技术手册，尤其是记载最新技术的， 都是用美国通用语也就是英语撰写的。可能在其它领域不懂英语没有什么大的问题，但在IT行业，不懂英语就是无法掌握最先进的技术，基本等于没有出头之日。不懂？——不懂就去查呗。
+Unavoidable facts, most of the information technology in today's world is the invention of Europeans and Americans. More precisely, it is the credit of Americans. Naturally, all kinds of data and documentation technical manuals, especially those that record the latest technology, are written in American lingua franca or English. There may be no big problems in not knowing English in other fields, but in the IT industry, if you don't understand English, you can't master the most advanced technology, which is basically equal to the day when there is no beginning. Do not understand? - If you don't understand, go check.
 
-不过话说回来，不是说你一定要有个托福雅思的高分才能去学编程的。由于历史原因，大部分计算机语言借用了部分英语的词汇作为基本词汇，但绝不是说必须先学英语才能学习编程。就编程本身而言，它所需要的英语水平不过是死记硬背好几个单词而已。你在看好莱坞大片时，一部片子下来总能记住主角和主要配角的名字吧，C语言全部关键字一共32个，而其中有6到7个的使用率超过78%，这样你还有什么可担心的。但是，要想成为高手，阅读大量的相关资料是免不了的，这个时候，英语就显出它的重要性了。能使用英文原版的软件就尽量不要用中文汉化版，能读经典的原版英文教材就尽量不要读翻译过来的中文版。在这里不是崇洋媚外，而是使用汉化版的软件极易引起各种不可预料的问题，国人翻译过来的教材或多或少有失原味，下边来一段小插曲：
+But then again, it is not that you must have a high score of TOEFL IELTS to learn programming. For historical reasons, most computer languages ​​borrow some of the English vocabulary as the basic vocabulary, but it does not mean that you must learn English before you can learn programming. As far as programming itself is concerned, the level of English it needs is just a few words of rote memorization. When you watch a Hollywood blockbuster, you can always remember the names of the protagonist and the main supporting role in a film. There are a total of 32 keywords in C language, and 6 to 7 of them use more than 78%, so you still have What can be worried about. However, in order to become a master, reading a large amount of relevant information is inevitable. At this time, English shows its importance. If you can use the original English software, try not to use the Chinese version. You can read the classic English textbook and try not to read the translated Chinese version. It is not a foreign-style beauty here, but the use of Chinese-language version of the software is very easy to cause all kinds of unpredictable problems. The textbooks translated by the Chinese people are more or less unnatural, and there is a small episode below.：
 
-> 如果只因为那几个屈指可数的英文单词而放弃学习编程，我只能说这样的人趁早离开为好。顺便提一句，本文作者（这里指BlueAuris）一向认为那个叫易语言的中文编程语言是个不折不扣的笑话。理由很简单，其他流行的语言都有自己的独到之处，就像武当剑少林拳打狗棒一样在江湖上占有一席之地，而这个语言除了有几个中文标识符之外，一无所长。而这几个中文标识符也不过是使用了文本替换的方式把C语言的几个特定词汇换成了意思相对应的中文而已，任何一个文本编辑器都可以做到这一点。形象的表现一下，这就是有个猥琐的家伙特地身穿全套阿拉伯长袍练了整路正宗少林长拳然后大声叫嚷这就是他发明的具有民族特色的中东石油大亨拳。
+> If I give up learning programming because of only a handful of English words, I can only say that such people leave early. Incidentally, the author of this article (here, BlueAuris) has always believed that the Chinese programming language called Easy Language is a complete joke. The reason is very simple. Other popular languages ​​have their own unique features. Just like Wudang Jian Shaolin punches a dog stick, it has a place on the rivers and lakes. This language has nothing but a few Chinese identifiers. These Chinese identifiers are just the use of text substitution to replace several specific vocabulary words of C language with the corresponding Chinese. Any text editor can do this. The performance of the image, this is a wretched guy wearing a full set of Arab robes and practicing the whole road, the Shaolin Changquan and then shouting loudly. This is the Middle Eastern oil tycoon box he invented with national characteristics.
 
-## 我能学好编程吗
+## Can I learn programming?
 
-如果你已经看完前面的部分到达这里，显然你是确实想要学习编程的新手。不论你是为了什么目的来学习，在看了上面的话之后是不是很有信心呢？不过我要打击你一下，不是谁都学得好编程的。人人学开车，但不是谁都能上赛道，舒马赫更是只有那么一个。就像有些惊险刺激的游乐设施禁止高血压心脏病患者参与一样，编程作为一项耗费智力和体力的活动，对参与者也有一定的要求。先来看看吧，满足以下这些条件，你就可以放心大胆的开始了。:-)
+If you have already seen the previous part, you are obviously new to programming. No matter what purpose you are studying for, is it very confident after reading the above words? But I want to hit you, not everyone learns to program well. Everyone learns to drive, but not everyone can go to the track, Schumacher is only one. Just as some thrilling rides prohibit the participation of hypertensive heart disease patients, programming as an intellectual and physical activity requires certain requirements for participants. Let's take a look at it. If you meet the following conditions, you can start with a bold start. :-)
 
-先说体质要求。太祖说：身体是革命的本钱。健康的身体对编程大有益处，但并不是说残疾人就不能参与。就目前的技术水平，除了脑瘫和目盲这两项，其他的肢体残缺根本不妨碍。Stephen William Hawking在这样严重的情况下还能持续研究的事实，还不够激励你么。(^o^)
+Let me talk about the constitutional requirements. Taizu said: The body is the capital of the revolution. A healthy body is good for programming, but it doesn't mean that people with disabilities can't participate. As far as the current state of the art is concerned, except for cerebral palsy and blindness, other physical disabilities are not hindered at all. The fact that Stephen William Hawking can continue to study in such a serious situation is not enough to motivate you. (^o^)
 
-紧随其后的是足够的精力和时间。亲爱的小伙伴，只要你能静坐半小时安静的看完这本小册子，你的体能就达标了。如果你想告诉我，你能够一天在电脑前连续操作18小时以上，我要说的是，小伙伴，虽然你很犀利，但请注意保护好身体和眼睛。只要每天你能抽出30分钟来学习编程，那你的时间也合格了，当然有更多时间确实会更好，不过也没必要每天12小时。编程并不是世界上最重要的事，我们还有别的事要做。必须认识到，学习编程重要的是持之以恒，而不是依靠爆发力，每天半小时比一周一次6小时效果好的多。
+Followed by enough energy and time. Dear little friend, as long as you can sit still for half an hour and read this booklet quietly, your physical fitness will be up to standard. If you want to tell me that you can operate for more than 18 hours in front of the computer in one day, what I want to say is that the little friend, although you are sharp, please pay attention to protect your body and eyes. As long as you can take 30 minutes to learn programming every day, then your time is also qualified, of course, more time is indeed better, but there is no need for 12 hours a day. Programming is not the most important thing in the world, we have other things to do. It must be recognized that learning programming is important, rather than relying on explosive power, and half an hour a day is much better than six hours a week.
 
-第三个要求是你要略微懂一点计算机。不错，只要略懂就可以了。因为这正是本文的主要目的之一：向略懂计算机的人介绍编程。那么，怎么才算略懂呢？能浏览网页和用文本编辑器输入代码并且把键盘上的26个字母和十个数字挨个输入一遍就OK了！
+The third requirement is that you have to understand a little computer. Yes, as long as you understand it. Because this is one of the main purposes of this article: to introduce programming to people who understand computers. So, how do you know a little? I can browse the web and enter the code with a text editor and enter the 26 letters and ten numbers on the keyboard.！
 
-最后一点，你需要有顽强的毅力。编程并不像你想象的那样轻松，不是野餐和聚会。尤其是对于职业程序员都应掌握的C++，它可以用两句话来形容：三年不开张，开张吃三年。千万记住，C++被称为是真正的程序员使用的语言不是没有理由的，它的复杂度和性能超出你的想象。有无数的编程新手在第一个月不到就放弃了，你最好确定你不是他们中的一员。毅力没有尺子可以来度量，在这里我只能先祝愿各位都能坚持到最后。Good luck~
+Finally, you need to have tenacious perseverance. Programming is not as easy as you think, not a picnic or a party. Especially for C++, which professional programmers should master, it can be described in two sentences: three years without opening, and three years of opening. Remember, C++ is called a real programmer's language and there is no reason, its complexity and performance are beyond your imagination. There are countless novice programmers who give up in less than the first month, and you'd better make sure you are not one of them. Perseverance can be measured without a ruler. Here I can only wish you all the best. Good luck~
 
-### 一定要有一台计算机吗
+### Do you have a computer?
 
-到目前为止，是的。在老年时期，Beethoven可以凭空作曲而不依靠钢琴之类的东西，但几乎没有哪个程序员不依靠电脑而只在大脑里编写，尤其是开始学习的阶段。但这也不意味着只能在电脑上才能编程。在电脑还属于稀有电子产品的那个年代，哪有那么多人能非常方便的在电脑上编程呢？但最后不同样也诞生了不少优秀程序员么？那他们是怎样编程的呢？——纸、笔和大脑。当然，能有一台电脑显然更好。
+So far, yes. In old age, Beethoven can compose music out of thin air without relying on things like piano, but almost no programmers write in the brain without relying on computers, especially at the beginning of learning. But that doesn't mean you can only program on your computer. In the era when computers were still rare electronic products, how many people could program them on a computer very conveniently? But in the end, did not the same birth of many excellent programmers? So how are they programmed? - paper, pen and brain. Of course, having a computer is obviously better.
 
-用各种语言所编写的程序被运行在各种各样的机器和设备上，从掌上设备到巨型服务器，从台式电脑到微波炉，所有能够自动运行的地方都有程序的身影。但是很遗憾，并不是只要能够运行的设备就可以用来进行编程的，这就像虽然可能洗衣机也能发出悦耳的声音，但你不能指望用洗衣机来录制流行歌曲（额...也许SONY有这样的产品，我保留意见）。
+Programs written in a variety of languages ​​are run on a wide variety of machines and devices, from handheld devices to jumbo servers, from desktop computers to microwave ovens, where all programs that run automatically run. But unfortunately, it's not as long as the device that can be run can be used for programming. It's like the washing machine can make a pleasant sound, but you can't expect to use the washing machine to record popular songs (may... maybe SONY has I reserve the opinion of such products).
 
-目前大部分语言，所需要的电脑并不如你想象的那样高级。当然作为学习，我们还是需要有比较称手的设备。不错，最重要的就是称手两个字，所谓称手，就是不会由于设备的问题，妨碍你的思考，不需要高速的处理器，也不需要巨大的显示器，更不需要海量的硬盘，只要称手。当然，如果你是游戏或者影音发烧友，那你可以当我说的是废话。编程不是豪华海上旅游，而是修行。修行不需要五星级宾馆，但也要有破屋以遮风雨，否则感冒发烧了，怎么来修行呢？
+Most of the current languages, the computers they need are not as advanced as you might think. Of course, as a learning, we still need a device that is more handy. Yes, the most important thing is to call the two words. The so-called hand is not because of equipment problems, hinder your thinking, does not require high-speed processors, does not require huge displays, and does not require a large number of hard drives. Just call the hand. Of course, if you are a game or audiophile, then you can be nonsense when I say. Programming is not a luxury sea tour, but a practice. There is no need for a five-star hotel for practice, but there is also a need to break the house to shelter from the wind, otherwise it will have a fever and how to practice it?
 
-## 编程第一步
+## Programming first step
 
-首先确保你的健康状况和基本计算机操作水平（不会？不会就去学，健康状况不好？这个我只能建议你多锻炼身体）。
+First of all, make sure your health and basic computer operation level (will not? Do not go to school, health is not good? I can only recommend you exercise more).
 
-编程这件事上，没人可以无师自通，天才也不行。所以你要做的第一件事是找一本好的入门教材，最好是经典作品（后边会集中介绍）。反复地看教材，要牢记一点，你所提出的大部分问题，教材上都有解释，只是你没有认真看而已。反复地阅读，直到你觉得你已经可以编写出那本教材了，才可以丢弃它。教材比老师好的理由之一是，你可以带教材上厕所去卧室，而老师不行。当然，老师也有比教材优越的地方，那就是他可以给你解释教材上没有的问题。但记住老师也是人，你不动脑子就去找他，他会厌烦的。不要鄙视你的老师，即使他其他方面不如你，但至少在编程这件事上他能做你的老师就是他比你强的硬道理。尊师重道是中华民族的传统美德，O(∩\_∩)O 哈哈~
+In the matter of programming, no one can teach without a teacher, and genius does not work. So the first thing you have to do is to find a good introductory textbook, preferably a classic one (which will be introduced later). Repeatedly reading the textbooks, keep in mind that most of the questions you have raised are explained in the textbooks, but you have not looked at them seriously. Read it over and over until you feel that you can write the textbook before you can discard it. One of the reasons why the textbook is better than the teacher is that you can take the textbook to the bathroom and go to the bedroom, but the teacher can't. Of course, the teacher also has a better place than the textbook, that is, he can explain to you the problems that are not in the textbook. But remember that the teacher is also a person, you go to find him without thinking, he will be bored. Don't despise your teacher, even if he is not as good as you are, but at least in programming, he can be your teacher is his hard truth. Respecting the teacher is the traditional virtue of the Chinese nation, O(∩\_∩)O haha~
 
-你以为光看语法书和背诵单词而不练嘴就能说好英语么？显然不对。编程也是，熟能生巧在任何地方都是一样的。首先看懂教材上的那些例子，确保看懂之后，按着他的思路把它默写出来，当你尝试过就会知道看懂和默写是两个完全不同的程度。然后就可以做书后面的习题，独立想，想好之后最好是能在电脑上敲一遍，不到万不得已不要看答案或提示。等到整本书后面的习题你都能做对的时候，你就算入门了。如果你的目的仅仅只是为了考试拿高分，现在就可以去睡大觉了，但如果想要用编程来解决一些实际问题，对不起，你还欠火候。这其中的差别就相当于大学英语四级作文和畅销英文小说之间的差异。
+Do you think that you can speak English by reading grammar books and memorizing words without practicing your mouth? Obviously not right. Programming is also true, practice makes it the same everywhere. First of all, read the examples on the textbook, make sure to understand it, and then write it out according to his ideas. When you try it, you will know that understanding and dictation are two completely different degrees. Then you can do the exercises behind the book, think independently, after you think about it, it is best to knock it on the computer, not to have to read the answer or prompt. When you can do the exercises in the back of the book, you are getting started. If your goal is just to get a high score for the exam, you can go to sleep now, but if you want to use programming to solve some practical problems, sorry, you still owe it. The difference is equivalent to the difference between a college English essay and a best-selling English novel.
 
-会做书后边的习题只是编程的第一步而已，你掌握了大量的单词和熟悉语法并不能让你写出优美的英语小说。你得学习修辞手法和谋篇布局这类文学技巧，还得掌握历史典故、谚语俗话以及文化背景这些文字外的东西。如果要畅销，还需要超凡的主题、生动的故事和跌宕的情节。编程圈子里正好有和这些类似的玩意儿，这些都留到下一章细说。
+The exercises behind the book are just the first step in programming. You have a lot of words and familiar grammar and can't let you write beautiful English novels. You have to learn literary skills such as rhetoric and layout, and you must master things like historical allusions, proverbs, and cultural backgrounds. If you want to sell well, you need extraordinary themes, vivid stories and ups and downs. There are just a few similar things in the programming circle, which are left to the next chapter.
 
-## 问题向谁问
+## Question to whom to ask
 
-还记得郑钧的《路漫漫》歌词中有：
+I still remember that Zheng Wei’s "The Long Road" lyrics are:
 
-> 记住没人会同情你 我亲爱的兄弟
+> Remember that no one will sympathize with you, my dear brother
 
-> 你最好鼓起勇气才能活下去
+> You better have the courage to live
 
-> 因为路漫漫 其修远 我们要上下而战斗
+> Because the road is long, it’s repairing, we have to fight up and down.
 
-### 编译器/解释器-案发现场
+### Compiler / Interpreter - Case Discovery
 
-编程这件事，基本上是不能指望有人帮你的，因为你很可能问了别人半天后才发现你们俩说的根本就不是一个东西。当你编程遇到问题，首先应该是去看编译器提供的信息，它可是最直接的来源，相当于案发现场，很少有刑警不看尸检报告就直接破案的（当然，对于柯南这种我保持沉默）。
+Programming this thing, basically can not expect someone to help you, because you are likely to ask others half a day later to find out that the two of you are not a thing at all. When you have problems programming, you should first look at the information provided by the compiler. It is the most direct source, which is equivalent to the crime scene. Few criminal police directly solve the crime without looking at the autopsy report (of course, for Conan I keep silent）。
 
-现代的编译器已经不止编译那么简单，编译本身就能送出大量的提示，调试功能更是强大到可以让你检视程序运行的每一步都发生了什么变化，只要你能看懂。机器的问题，就应该用机器来解决，而不是用人的肉眼去检查（在你还没练就火眼金睛前）。不过也不要过分依赖编译器，尤其是初学编程的时候，有错误时先在纸上用大脑跑一跑程序，实在搞不定了再单步跟踪，多试几次你的编程能力自然会有很大的提高。
+Modern compilers are not only simple to compile, but the compilation itself can send a lot of hints. The debugging function is even more powerful enough to let you see what happens to every step of the program, as long as you can understand it. The problem of the machine should be solved by the machine, not by the naked eye (before you have not practiced it). But don't rely too much on the compiler, especially when you are learning to start programming. If you have errors, you should use the brain to run the program on the paper. You can't make a single step. If you try a few times, your programming ability will naturally be very high. Great improvement.
 
-### 教材和文档-手边的工具
+### Teaching materials and documents - tools at hand
 
-手边的教材和文档能解决70%以上的问题，[Linux](http://zh.wikipedia.org/wiki/Linux)下的 manual 就非常好，一些IDE的help文档也不错。如果还不够，上网去查。如果找不到，请记住有个东西叫搜索引擎。
+The textbooks and documentation at hand can solve more than 70% of the problems. The manual under [Linux] (http://en.wikipedia.org/wiki/Linux) is very good, and some IDE help files are also good. If it is not enough, go online and check. If you can't find it, remember that there is something called a search engine.
 
-### 搜索引擎-第二大脑
+### Search Engine - Second Brain
 
-在如今的知识爆炸时代，海量的信息被存放在互联网上，那么如何从这些海量的信息中筛选出自己需要的信息呐？——答曰搜索引擎。首推 [Google](https://www.google.com)，使用得当的话，绝大多数问题可以得到解决。搜索引擎适合解决一个点的问题，而接下来要推荐的 [Wikipedia](http://zh.wikipedia.org) 则比较适合解决一个面的问题，维基百科页面的下方往往会有相应主题的一些链接和同一类别的其他主题介绍。后边就搜索引擎的高效使用再做详细介绍，这里先知道有搜索引擎这么个东西就够了。
+In today's era of knowledge explosion, massive amounts of information are stored on the Internet, so how do you filter out the information you need from this vast amount of information? - Answer the search engine. The first [Google] (https://www.google.com), if used properly, most problems can be solved. Search engines are good for solving a single point of problem, and the next recommended [Wikipedia] (http://en.wikipedia.org) is more suitable for solving a single problem. Wikipedia pages tend to have some of the corresponding topics below. Links and other topics in the same category are introduced. After the detailed introduction of the efficient use of search engines, here is the first thing to know about a search engine.
 
-### 向他人求助
+### Asking for help from others
 
-如果以上三种方式都没能解决你的问题，确认你已经努力过而没有答案，那么接下来可以向老师、同学请教或者在邮件列表上提问。在你确定要提问之前，请先把 [How To Ask Questions the Smart Way](http://linuxmafia.com/faq/Essays/smart-questions.html) [[1]](#ref1) [[2]](#ref2) [[3]](#ref3) 好好读一读。解决完一个问题后可以记录在自己的博客或者wiki上，独乐乐不如众乐乐。:)
+If none of the above three methods can solve your problem and confirm that you have worked hard and have no answer, then you can ask the teacher, classmates or ask questions on the mailing list. Before you are sure to ask questions, please [How To Ask Questions the Smart Way] (http://linuxmafia.com/faq/Essays/smart-questions.html) [[1]](#ref1) [[2 ]](#ref2) [[3]](#ref3) Read it out. After you have solved a problem, you can record it on your blog or wiki. Lele is not as good as it is. :)
 
 ### Notes
 
-1. <a name="ref1">[1]</a> 大家网论坛上有一份整理不错的 [中文翻译](http://club.topsage.com/thread-220478-1-1.html)
-2. <a name="ref2">[2]</a> [Zoom.Quiet](http://zoomquiet.org/) 制作的 [提问的智慧中文版-思维导图](../images/questions4mind.png)
-3. <a name="ref3">[3]</a> [啄木鸟社区整理地比较好的一份提问及答题指南](http://wiki.woodpecker.org.cn/moin/AskForHelp)
+1. <a name="ref1">[1]</a> There is a well-organized [Chinese translation] on the forum. (http://club.topsage.com/thread-220478-1-1.html )
+2. <a name="ref2">[2]</a> [Zoom.Quiet] (http://zoomquiet.org/) [Writing Chinese for Questioning - Mind Map] (../images /questions4mind.png)
+3. <a name="ref3">[3]</a> [A good question and answer guide for the woodpecker community](http://wiki.woodpecker.org.cn/moin/AskForHelp)

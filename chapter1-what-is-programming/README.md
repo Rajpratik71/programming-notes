@@ -1,123 +1,123 @@
-# 第一章-编程所谓何物
+# Chapter 1 - Programming What is So-called
 
-简单点来说，编程就是编制程序（呵呵，这不是废话么...）。程序是让计算机发挥功能的命令的集合，大体上有两种形式，让计算机真正执行的是电脉冲形式，叫机器码，譬如0101这种二进制数字。程序员编制的通常是文本形式，叫源代码。使用一个称为编译器/解释器的工具，可以把源代码转变为机器码。而编程就是产生那些源代码的工作。这个工作类似于谱曲、编菜谱、写工作手册。我们知道，谱曲和菜谱并不是一蹴而就的，往往需要反复的修改，直到最后满意为止，编程也是一样。
+To put it simply, programming is programming (hehe, this is not nonsense...). A program is a collection of commands that make a computer function. There are basically two forms. What the computer actually performs is an electrical pulse form called a machine code, such as a binary number such as 0101. The programmer is usually written in text form called source code. The source code can be converted to machine code using a tool called a compiler/interpreter. Programming is the work of producing those source code. This work is similar to composing, compiling recipes, and writing workbooks. We know that composing and recipes are not done overnight, and often require repeated modifications until the final satisfaction, programming is the same.
 
-## 编程的对象——计算机
+## Programming Objects - Computer
 
-一般来说，如果你看到的这篇文章是电子版的话，你眼前的东西就是计算机，也就是俗称电脑的东西。这样的说法对普通用户来说是已经足够了，但是电气工程师认为一堆电路板、缆线、马达、和机壳的组合才算，联想的销售人员认为他们卖的那些方块才是计算机，而中央军委的人大概觉得银河V才能称得上。程序员的看法和他们并不完全相同，在程序员看来，只要能自动计算的东西，就是计算机。这个说法的重点在于自动和计算这两个词。广义的计算是指能对外界的某种输入做出反应，不一定就是数学运算。比如电梯就可以对按键做出反应，所以它也是能计算的。自动是说计算是通过自身的运作来完成的，不需外界干预。
+Generally speaking, if the article you see is in electronic form, the thing in front of you is the computer, which is commonly known as the computer. This is enough for the average user, but the electrical engineer thinks that a bunch of boards, cables, motors, and chassis are combined. Lenovo’s salespeople think that the blocks they sell are computers. The people of the Central Military Commission probably think that the Galaxy V can be called. The programmer's opinion is not exactly the same as they are. From the programmer's point of view, as long as the thing that can be automatically calculated is the computer. The point of this statement is the automatic and computational two words. Generalized calculations refer to the ability to react to an input from the outside world, not necessarily a mathematical operation. For example, the elevator can react to the button, so it can also be calculated. Auto means that calculations are done through their own operations without external intervention.
 
-在有电的时候，电梯就可以自动运行，这样看来电梯也是计算机。算盘虽然能计算，但不是自动完成的，不过如果把打算盘的人一起算上，那就是不错的计算机了。使用指纹或虹模的智能锁、秦始皇陵里的机关和自动钢琴似乎也都是一种计算机，情况确实是这样，计算无处不在，计算机也无处不在。甚至可以把我们的世界看作一台巨大的计算机，然后就觉得我们是生活在Matrix里，这是一个很有意思的哲学问题，有兴趣就去看看黑客帝国三部曲吧。通常在实际编程中，程序员只考虑现代数字电子计算机，也就是使用电能为动力，在运算时以电子电路和逻辑代数为基础的计算机。他们用途广泛，种类也是极其繁多，手机、PC、服务器是比较常见的样子，电梯、收银台、智能门禁则是各种隐藏的版本。虽然设备的外在形式千变万化，但现代电子计算机的基本原理和体系结构并没有太大的变化。
+When there is electricity, the elevator can run automatically, so it seems that the elevator is also a computer. Although the abacus can be calculated, it is not automatic, but if you count the people who plan to put it together, it is a good computer. The use of fingerprints or rainbow mode smart locks, organs in the Mausoleum of the First Qin Emperor and automatic pianos also seem to be a kind of computer. This is indeed the case, computing is everywhere, and computers are everywhere. You can even think of our world as a huge computer, and then think that we are living in Matrix. This is a very interesting philosophical question. If you are interested, check out the Matrix Trilogy. Often in practical programming, programmers only consider modern digital computers, that is, computers that use electrical energy as a power source, based on electronic circuits and logic algebra. They are widely used and are extremely diverse. Mobile phones, PCs, and servers are more common. Elevators, checkout counters, and smart access control are all hidden versions. Although the external form of equipment is ever-changing, the basic principles and architecture of modern electronic computers have not changed much.
 
-### <a name="why-binary"></a>为什么要使用二进制
+### <a name="why-binary"></a>Why use binary
 
-从计算机导论课程（或其他相关课程）我们知道在计算机底层是用二进制来表示各种信息的，有些人肯定会问计算机底层为什么不用咱们熟悉的十进制来进行各种运算？这样不是更接近人类的思考习惯么？这种想法还是不错的，你看咱们人类多聪明，让计算机使用十进制它是不是同样会变得很聪明呢？很遗憾的告诉你，不会，至少目前不会，那样只会拖累它，想想地球上有一半人改用火星文进行沟通，会出现什么情况？计算机的全称为电子计算机，既然是基于电子组成的，它就得遵循电子世界的规矩。
+From the introduction to computer courses (or other related courses), we know that in the bottom of the computer is to use binary to represent a variety of information, some people will certainly ask the bottom of the computer why not use the familiar decimal to perform various operations? Isn't this closer to human thinking habits? This idea is still good. You see how smart people are, let the computer use decimal, is it also smart? I am sorry to tell you, no, at least not at the moment, that will only drag it down. What happens when half of the people on the planet switch to Mars? The computer is called an electronic computer. Since it is based on electronic components, it has to follow the rules of the electronic world.。
 
-在数字电路中一般用0表示低电平，1表示为高电平。电平是个逻辑量（就是聪明的人类根据自己的思维逻辑定义的一种东西），只有逻辑高、逻辑低两种值，但逻辑的高低是用电压的大小来表示的。譬如与电源负极的电压差值很小的某一点可以表示为逻辑低电平——0，电压差值很大的那一点则可以表示为逻辑高电平——1。在目前的电路结构中，判断逻辑高、低电平两种状态是很容易做到的，而要判断多于两种状态则比较麻烦。
+In digital circuits, 0 is generally used to indicate a low level, and 1 is indicated as a high level. Level is a logical quantity (a kind of thing that a smart human is defined according to its own thinking logic). It has only two values: logic high and logic low, but the logic level is represented by the magnitude of the voltage. For example, a point where the voltage difference from the negative pole of the power supply is small can be expressed as a logic low level - 0, and a point where the voltage difference is large can be expressed as a logic high level - 1. In the current circuit structure, it is easy to judge the logic high and low states, and it is cumbersome to judge more than two states.
 
-## 为什么需要编程
+## Why do you need programming?
 
-编程这件事存在，完全是迫不得已，人类发明了计算机，想让它做事，仅此而已。但机器有三大特点，使得如果要让机器做事，完全不像吩咐人那么简单。
+The existence of programming is completely a last resort. Humans invented the computer and wanted it to do things. That's it. But the machine has three characteristics, so if you want the machine to do things, it is not as simple as telling people.
 
-### 第一个特点就是机器很傻
+### The first feature is that the machine is silly
 
-很多人希望自己像计算机一样聪明，真要是那样你就完了，赶紧卷好被子回家吧，不过待在竹园实验室也许是个不错的选择，至少还有你的难兄难弟陪着你——值班桌上那台破破烂烂的电脑。For example, 从三个数里选出最大最小值，人类可以一眼就看出，但机器只能先从两个里找出最大的，再把这个最大的和第三个比较，然后再这样重复一遍找出最小值。如果是七个八个数，机器也是这样反复操作，O(∩\_∩)O\~是不是想到了冒泡排序？这就类似工地上搬砖，人类的做法一次搬很多很多砖，用推车或者别的运输工具把砖码得高高的然后运到目的地，但计算机的做法是每趟只搬一块砖，你没看错，每趟一块，一块只需998！998，抱回家！ =\_= 那为什么计算机这么厉害呢？
+Many people want to be as smart as a computer. If that's the way you are finished, hurry up and get your quilt back home, but staying at the Zhuyuan Lab may be a good choice, at least your brothers and sisters will accompany you - duty table On the tattered computer. For example, the maximum and minimum values ​​are selected from three numbers, which humans can see at a glance, but the machine can only find the largest from the two, then compare this maximum with the third, and then repeat Find the minimum value again. If it is seven eight numbers, the machine repeats this operation. Does O(∩\_∩)O\~ think of bubble sorting? This is similar to moving bricks on the construction site. The human practice moves a lot of bricks at a time. The carts or other means of transport are used to transport the bricks high and then shipped to the destination, but the computer's practice is to move only one brick per turn. You are not mistaken, every piece, one piece only 998!998, hold home! =\_= So why is the computer so powerful?
 
-### 它的第二个特点，快而不乱
+### Its second feature, fast and not messy
 
-机器可以不知疲倦地用同一方法，重复重复再重复地做某件事，而且每次重复都相当的快。这一点是人类做不到的，让一个人搬一堆砖，也许没什么问题，但是一车砖就会让人疲惫不堪，如果有一火车皮的砖，想必大多数人想都不想就放弃了，即使有坚持去做的人，他的动作质量也只会越来越差。但机器不同，他搬砖不是每趟一块么，但他每趟来回的时间很短，比如少于0.00...001秒，不管砖头有多少，十万块也好，十亿块也罢，按同一方法处理，既没有差别也不会厌烦，直到全部处理完。真是不怕苦、不怕脏、不怕累，新时代的劳动模范呀！所以从总体来比较结果，机器就比人强了。还是以选最大最小数为例，人可以用肉眼检视三四个数，但超过100个数就要用其它的方法。对机器来说，三个和三万个数只是重复次数的差别，单调快速的重复，这就是机器的诀窍。想想金庸笔下的绝招都是啥？——把最简单的招数练到极致，那就是绝招呀！！！
+The machine can tirelessly repeat the same method and do something in the same way, and each repetition is quite fast. This is something that humans can't do. It may not be a problem for a person to move a pile of bricks. But a brick car can be exhausting. If there is a brick with a train skin, most people don't want to give up. Even if there is someone who insists on doing it, his movement quality will only get worse and worse. But the machine is different. He doesn't move bricks every time, but his time between back and forth is very short, such as less than 0.00...001 seconds, no matter how many bricks, 100,000, or billions. The same method of processing, neither difference nor bored until all processed. I am not afraid of suffering, not afraid of dirty, not afraid of tiredness, the model of labor in the new era! So from the overall comparison of results, the machine is stronger than people. Taking the selection of the largest and smallest numbers as an example, one can view three or four numbers with the naked eye, but more than 100 numbers use other methods. For the machine, the three and 30,000 numbers are just the difference in the number of repetitions, and the monotonous and fast repetition is the flaw of the machine. Think about what Jin Yong’s tricks are all about? ——Take the simplest tricks to the extreme, that is the trick！！！
 
-### 更重要的一点，机器和我们言语不通
+### More importantly, the machine and our speech are unreasonable.
 
-就是说，我们不可能一抬手一挑眉毛就吩咐它做事。不要和我抬杠说你可以用鼠标画圈让机器做事，也可以声控，那都已经不是纯粹的机器了。机器和我们处在不同的感知空间，所以它不能理解我们的言语。我们要命令它，必须用它能够理解的形式。从根本上来说，就是电脉冲——也就是节 [为什么要使用二进制](#why-binary) 所说的数字信号「0」和「1」。
+That is to say, we can't raise a hand and raise an eyebrow and tell it to do things. Don't lift the bar with me and say that you can use the mouse to draw circles to let the machine do things, or you can voice control. It is no longer a pure machine. The machine and we are in different perception spaces, so it can't understand our words. We have to order it, we must use the form it can understand. Basically, it is the electrical pulse - that is, the digital signal "0" and "1" in the section [Why use binary] (#why-binary).
 
-基于以上这三个特点，要让机器做事情，就必须让把我们的要求转化成最简单适于重复的命令集合，而且是电脉冲形式。比如我们要让机器在屏幕上显示一幅图，首先我们要把这幅图分解成很多很多的小方格，也就是所谓像素，每个像素只有一个颜色，每个颜色都用一个很长的数字表示，然后所有这些数字转化成内存里的电平信号，再用另外的电路信号来一个个的把这些电平送到显像电路。所有这些电平和信号的集合就是程序，而编程，就是制造这些程序的工作。
+Based on these three characteristics, in order for the machine to do things, we must turn our requirements into the simplest set of commands suitable for repetition, and in the form of electric pulses. For example, if we want the machine to display a picture on the screen, we first need to decompose the picture into many small squares, which are called pixels. Each pixel has only one color, and each color uses a long one. The number indicates that all of these numbers are then converted to level signals in the memory, and the other circuit signals are used to send these levels to the display circuit one by one. All of these sets of levels and signals are programs, and programming is the job of making these programs.
 
-也许有一天，我们不再需要编程序，程序员这个职业也将不复存在。不过我想如果那天到来，那就是机器已经能完全理解人类的语言和思想的时代了。在肉眼所及的范围里，似乎还看不到哩 :)
+Maybe one day, we no longer need to program, and the profession of programmers will no longer exist. But I think if that day comes, it is the age when the machine can fully understand human language and thought. In the scope of the naked eye, it seems that I still can't see 哩 :)
 
-## 为什么要学编程
+## Why do you want to learn programming?
 
-这个问题有两层意思。首先是编程为啥要学，很简单，因为这玩意不是生来就会，就像木匠活一样属于一门手艺，自然要通过学习才能掌握。你怎么也得花上几年来学英语不是么？第二层涵义才是重点，为啥我要学它？答案自然是因人而异：
+This question has two meanings. The first is programming to learn, it is very simple, because this thing is not born, just like a carpenter is a craft, it is natural to learn through learning. How do you have to spend a few years studying English? The second layer of meaning is the key point, why should I learn it? The answer naturally varies from person to person:
 
-1. 能提升和挑战自己的智力
-3. 非常有趣儿
-4. 编程是一门艺术
-5. 造物主一般的感觉
+1. Can enhance and challenge your intelligence
+3. Very interesting
+4. Programming is an art
+5. The general feeling of the creator
 
-以上几种都属于自虐一族... 再来看看以下几种
+The above are all self-abuse... Let’s take a look at the following
 
-1. 学校的必修课程...
-2. 可以赚好多好多钱
-2. 一种莫名的优越感
-3. 等等等等...
+1. Compulsory courses for the school...
+2. You can make a lot of money
+2. An inexplicable sense of superiority
+3. Wait, etc...
 
-在我眼中，学习编程的意义更多的在于可以利用现代计算机技术来推动本专业和社会的发展，通过计算机（这里泛指广义的计算机）这个平台可以相对便利地实现自己的想法，说白了它就是一个很好的工具——「造物主一般的感觉」。对于非计算机专业的学生来说，了解一点编程的基础知识也是十分有利的——可以自己亲手实现那些天马行空的想法。现代的高级语言如 Python 玩起来就异常地爽，各种第三方库数都数不清。
+In my eyes, the significance of learning programming is more about the use of modern computer technology to promote the development of the profession and society. Through the platform of computers (herein referred to as generalized computers), it is relatively convenient to realize their own ideas. It is a very good tool - "the feeling of the creator." For non-computer majors, it's also a good idea to understand the basics of programming—you can do what you want with your own hands. Modern high-level languages ​​such as Python play exceptionally cool, and the number of third-party libraries is unclear.
 
-## 编程到底是个什么玩意儿
+## Programming is what it is.
 
-计算机本身什么也做不了，必须依靠程序来指挥他做事。程序就是操作流程的顺序，或者说是顺序排列的多个操作过程，它是方法的描述，同时又往往包含着《孙子兵法》中**分而治之&&各个击破**的思想。
+The computer itself can't do anything, and must rely on the program to direct him to do things. A program is the sequence of operational processes, or multiple operational processes that are arranged in sequence. It is a description of the method, and at the same time it often contains the idea of ​​"dividing and ruining" in "The Art of War".
 
-Long long ago, 有一个叫张三的人，是一个木匠，老本行是做家具的。一次李四让他帮做张摇椅，于是乎张三先把原木分割成木条木板，再把木条木板弯曲到指定的形状，然后把他们放置到适当的位置，接着设法固定他们，最后雕花抛光和上漆，一张漂亮的摇椅就做好了。这整个的流程如果记录下来，就是一个程序。
+Long long ago, there is a man named Zhang San, a carpenter, the old man is doing furniture. Once Li Si asked him to help make a rocking chair, so Zhang San first divided the logs into wooden planks, then bent the wooden planks into the specified shape, then placed them in the appropriate position, then tried to fix them, and finally carved and polished. Painted, a beautiful rocking chair is ready. If the whole process is recorded, it is a program.
 
-任何程序都有三个要素，执行者、操作对象（也称为资源）和操作方法（指令）。在做摇椅的这个程序里，张三就是执行者，木头就是他所对付的资源，在指令的持续作用下，木头（资源）的状态（如形状大小、颜色位置等）不断发生变化，最后，在程序结束时，木头变成了漂亮的摇椅。
+Any program has three elements, the executor, the action object (also known as the resource), and the action method (instruction). In this program of rocking chair, Zhang San is the executor. Wood is the resource he has dealt with. Under the continuous action of the instruction, the state of wood (resource) (such as shape size, color position, etc.) constantly changes. Finally, At the end of the program, the wood turned into a beautiful rocking chair.
 
-电脑程序和上面一样，是方法的描述。只是这些程序的执行者不再是人，而是CPU，命令也变成了CPU的指令，而资源则是CPU可以改变其状态的东西，通常是内存，当然端口、硬盘等也是，不过一般的应用程序都只使用内存就可以完成工作。有的时候会听到别人说：「我的电脑内存是500G的，怎么玩起DOTA来还是很卡呢？」如果这种事情真的发生在你的电脑上，那我只能说：「恭喜你的电脑成功完成穿越，该电脑的准确生产年代不是史前，那应该就是在2014年之后。」一般来说个人电脑内存不超过8G，硬盘500G倒是比较普遍了。CPU并不直接从硬盘读取数据，而是通过内存间接获取。
+The computer program is the same as above and is a description of the method. Only the executors of these programs are no longer humans, but the CPU, the commands also become CPU instructions, and the resources are things that the CPU can change its state, usually memory, of course, ports, hard disks, etc., but in general Applications can use only memory to get the job done. Sometimes I will hear people say, "My computer's memory is 500G. How can I play DOTA or is it a card?" If this kind of thing really happens on your computer, then I can only say: "Congratulations. Your computer has successfully completed the traversal. The exact production age of the computer is not prehistoric. It should be after 2014." Generally speaking, the personal computer memory does not exceed 8G, and the hard disk 500G is more common. The CPU does not read data directly from the hard disk, but indirectly through memory.
 
-有一点要注意，CPU其实并不知道自己在做什么，是程序在指挥CPU的运作。这一点比较难理解，让我们来看看算盘是如何完成计算的。
+One thing to note is that the CPU does not actually know what it is doing, it is the program that commands the operation of the CPU. This is hard to understand. Let's see how the abacus is calculated.
 
-![红木算盘](../images/suanpan.jpg)
+![Mahogany abacus] (../images/suanpan.jpg)
 
-要使用算盘，只需要一件东西：口诀。记熟口诀（当然还有它对应的操作），就可以用算盘计算。在这个用算盘计算的过程里，口诀就是程序，指导着计算过程。算盘自身并不知道自己在计算，他只产生了物理上的一些变化（算珠位置的变化），做珠算的人同样也不需要知道，他只需要按照口诀调整算珠的位置。当程序结束的时候，算珠必定会处在某个位置上，这个位置的状态可以按照某种约定被读出，被读成某个数值，比如下面4个算珠全都在中档而上面的珠子没有落下的状态就是4。
+To use an abacus, you only need one thing: mouth. Remember the cooked mouth (and of course its corresponding operation), you can use the abacus calculation. In this process of calculating with abacus, the mouth is the program that guides the calculation process. The abacus itself does not know that he is calculating. He only produces some physical changes (the change of the position of the bead). The person who does the abacus also does not need to know. He only needs to adjust the position of the bead according to the sputum. When the program ends, the bead will definitely be at a certain position. The state of this position can be read according to a certain convention and read as a certain value. For example, the following four beads are all in the middle and the beads on the top. The state that has not fallen is 4.
 
-操作和储存状态的设备并不需要知道状态是怎么转换成信息的，转换由阅读者来完成。举个不是非常准确的例子，显示器在显示图像的时候，在显示屏上总是按照如下的规则进行：
+Devices that operate and store state do not need to know how the state is converted into information, and the conversion is done by the reader. As a very accurate example, when the display is displaying images, the display always follows the following rules:
 
 ```
-坐标(1,1)黑色、(1,2)白色、(1,3)白色、(1,4)白色、(1,5)白色、(1,6)白色、(1,7)白色、(1,8)白色、(1,9)白色、(1,10)黑色...
+Coordinates (1, 1) black, (1, 2) white, (1, 3) white, (1, 4) white, (1, 5) white, (1, 6) white, (1, 7) white, (1,8) white, (1,9) white, (1,10) black...
 
-坐标(2,1)黑色、(2,2)黑色、(2,3)黑色、(2,4)白色、(2,5)白色、(2,6)白色、(2,7)白色、(2,8)白色、(2,9)白色、(2,10)黑色...
+Coordinates (2, 1) black, (2, 2) black, (2, 3) black, (2, 4) white, (2, 5) white, (2, 6) white, (2, 7) white, (2,8) white, (2,9) white, (2,10) black...
 ```
 
-虽然显示器只是在适当的坐标显示黑色或是白色，但我们却在显示器上看到了文字、图片和动画，你不会认为显示器知道这些是鸟山明的漫画吧？如果你能造出这样的显示器，那真是太有才了！
+Although the display only shows black or white at the appropriate coordinates, we see text, pictures and animations on the display. You don't think the monitor knows that these are Toriyama's comics? If you can make such a display, it is so talented!
 
-计算机也是一样。比如计算圆周率的程序，CPU只是不断地对某一块内存进行操作，当程序结束的时候，这块内存恰好处在某种特殊的状态。而按照事先的约定，这个状态在被读出来的时候，它正好和圆周率相同，于是我们可以说，算出了圆周率。其实CPU只是在那里象手指头一样拨动内存的算珠而已。这种算珠极其简单，他只有两个位置，0和1，拨动它也很方便，电流就可以，但这种算珠实在太多，使得他们能组合起来表示很复杂的信息，就像只有黑白两色的屏幕点当数量足够多的时候，就可以用来表现有趣的漫画。
+The same is true for computers. For example, in the program of calculating the pi, the CPU only constantly operates on a certain block of memory. When the program ends, the memory is just in a special state. According to the prior agreement, when this state is read out, it is exactly the same as the pi, so we can say that the pi is calculated. In fact, the CPU is just a bead that moves the memory like a finger. This kind of bead is extremely simple, he only has two positions, 0 and 1, it is very convenient to toggle it, the current can be, but there are so many beads, so that they can be combined to represent very complicated information, just like Only black and white screens can be used to represent interesting comics when there are enough screens.
 
-所以程序代表人期望电脑能做的事（注意不是电脑要做的事，这一直混淆着许多人），当人需要做这些事时，人提供指令，再给出某些资源以期电脑能对其做正确的改变。程序只是方法的描述，本身是不能发生任何效用的，直到它被执行，人为给定它一块内存，告诉它计算结果的精度及计算结果的存放位置后，他通过控制CPU才改变人为给定的这块内存的状态以表现出计算结果。
+So the program representative expects what the computer can do (noticing that the computer is going to do things, which has always confused many people). When people need to do these things, people provide instructions and give some resources so that the computer can Make the right changes. A program is just a description of a method. It can't be useful anymore. Until it is executed, it is given a piece of memory, telling it the accuracy of the calculation result and the storage location of the calculation result. After changing the artificially given CPU The state of this memory to show the result of the calculation。
 
-通常，我们把计算机的物理实体部分称为硬件，包括电路板、机箱、键盘鼠标等，而把不可见的非实体部分称为软件，软件大体就是程序和主要由程序产生的数据。广义的说，乐谱、菜谱、工作手册、仪器的操作说明也是某种程序，我们不妨称之为类程序。
+Usually, we refer to the physical part of the computer as hardware, including the circuit board, chassis, keyboard and mouse, etc., and the invisible non-physical part is called software. The software is generally the program and the data mainly generated by the program. Broadly speaking, musical scores, recipes, workbooks, and instrumental instructions are also procedures that we might call a class.
 
-### 编程语言又是怎么回事
+### What is the programming language?
 
-如果以上所说的就是编程，那编程语言（比如C语言）又是怎么一回事？
+If the above is programming, then what is the programming language (such as C language)?
 
-菜谱、仪器的操作说明可以用法语来写、也可以用中文来写，不影响实质效果。因为人类生存在同一个四维物理时空中，具有相同或类似的感知。虽然人类的语言五花八门，但都可以通过翻译得到正解。
+The instructions for the recipes and instruments can be written in French or in Chinese without affecting the actual effect. Because humans live in the same four-dimensional physical space and time, they have the same or similar perception. Although human language is varied, it can be translated positively through translation.
 
-仪器操作说明、一般的菜谱，所描述的都是人类世界的事物，人类可以理解，因此它们可以用人类的语言来描述。但计算机程序显然与菜谱有不同，他是指挥计算机用的。首先CPU所能感受到的物理空间和与人类的感受严重不同，很多概念根本无法传达，其次没有大脑的计算机并不懂得人类的语言，何况人类的语言并不那么完美，很多事不能精确的描述，所以人类的语言不论英语还是中文都不能胜任这个任务。这个情况和音乐有点类似，解决方案是发明一种人造语言专门用于这个领域。比如五线谱就是一种专门的供音乐使用的人造语言（数字简谱也是，由于它与中国的工尺谱相当接近，所以在中国得到了最大程度的发扬光大，有点地方话的味道）。于是就有一些专门的纯粹用于计算机的语言被创造出来。
+Instrument operating instructions, general recipes, all described in the human world, humans can understand, so they can be described in human language. But the computer program is obviously different from the recipe, he is the command computer. First of all, the physical space that the CPU can feel is very different from the human experience. Many concepts cannot be conveyed at all. Secondly, the computer without the brain does not understand the human language. Moreover, the human language is not perfect. Many things cannot be accurately described. Therefore, human language is not qualified for this task, whether English or Chinese. This situation is somewhat similar to music, and the solution is to invent an artificial language specifically for this field. For example, the staff is a special artificial language for music use (the digital notation is also because it is quite close to the Chinese ruler spectrum, so it has been promoted to the greatest extent in China, a bit of local flavor). Then there are some specialized languages ​​that are purely used for computers.
 
-其中最早的一种基于电路原理，直接用0和1来表示电路的开关通断，不断的拨动开关，就形成了程序。这种语言就是机器语言，它可以直接被计算机听懂，但遗憾的是，人类虽然可以看懂这种语言，但它不符合我们通常的交流习惯，很难被人所阅读，更不要谈设计和修改了。
+The earliest one is based on the circuit principle. It directly uses 0 and 1 to indicate the switching of the circuit, and continuously switches the switch to form a program. This language is machine language, which can be directly understood by computers, but unfortunately, although humans can understand the language, it does not meet our usual communication habits, it is difficult to be read by people, let alone design. And modified.
 
-人类的智慧总是无穷的，后来人们提出这样一个方案，我们可以先按某种方法和规则，生成一个我们能看懂的指令序列（就是源代码），再通过某个转化的工具（就是编译器），把它变成机器可以运行的指令（也就是可执行程序）。这个我们能看懂的指令序列的规则的总和（也就是词汇和语法[[1]](#ref1)），就是我们通常说的计算机语言。为了和机器语言相区别，被称为高级语言。
+Human wisdom is always infinite. Later, people proposed such a scheme. We can first generate a sequence of instructions (that is, source code) that we can understand according to some method and rule, and then pass a transformation tool (that is, compile ), turn it into an instruction that the machine can run (that is, an executable program). The sum of the rules of the instruction sequence we can understand (that is, the vocabulary and grammar [[1]] (#ref1)) is the computer language we usually say. In order to distinguish it from machine language, it is called a high-level language.
 
-章节开始所说文本形式的源代码其实是有些规定的，就像我们和老美用英语交流。首先你得说英文单词，不能冒法语词汇日文假名出来，其次你得按语法讲话，不能一个个单词往外蹦。程序也同样有词汇和语法上的一些规定，这些规定就构成一门语言。显然任何一门编程语言都是人造语言，既然是人造的东西，因发明人的想法而不同，就形成了不同的语言。当然，编程语言的区分远不止以上所说的词汇和语法上的不同，还有其运行机制也不完全一样。
+The source code in the text form at the beginning of the chapter is actually somewhat stipulated, just like we communicate with the old American in English. First of all, you have to speak English words, you can't take French vocabulary and Japanese pseudonyms. Secondly, you have to speak in grammar. You can't swear one word at a time. Programs also have vocabulary and grammatical rules that constitute a language. Obviously any programming language is an artificial language. Since it is a man-made thing, it is different because of the inventor's idea, and a different language is formed. Of course, the distinction between programming languages ​​is far more than the vocabulary and grammatical differences mentioned above, and the operating mechanism is not exactly the same.
 
-常见的编程语言有很多种，静态语言如 C & C++ & JAVA, 前三种语言近几年几乎一直占据着TIOBE编程语言排行榜的前三甲，其他著名语言有Python, Ruby, Perl和Golang等。他们各有所长，在不同的领域发挥着各自的作用。但由于计算机的体系结构大致相同，这些语言也大同小异，具有共通之处。这情况很好理解，通常真实世界的拳法看起来都有点相似，只有漫画这类幻想作品里才会有手脚飞出或者口吐火焰眼下喷水这种怪异的事情发生。
+There are many common programming languages, such as C & C++ & JAVA. The first three languages ​​have almost occupied the top three in the TIOBE programming language list in recent years. Other famous languages ​​include Python, Ruby, Perl and Golang. They have their own strengths and play their respective roles in different fields. However, because the architecture of computers is roughly the same, these languages ​​are similar and have commonalities. This situation is well understood. Usually, the real world boxing seems to be similar. Only the fantasy works such as comics will have the strange things happening when the hands and feet fly out or the mouth spits the fire.
 
-### 编译器所谓何物
+### What is the compiler?
 
-前边不少地方提到编译器，那是什么东东？——代码翻译机，前面的章节中或多或少地解释了这个东西。不过这里不介意再解释一次，是的，前文中提到过，程序其实是电脉冲形式的指令的集合——对机器这是绝对正确的。但你认为人类可以直接操作电脉冲么？——当然不能。所以最早的时候，程序员们是通过反复的拨动开关或者插拔插头来做这件事的，就像老电影里的电话接线员和发报员。下图为给ENIAC写程序的两只程序媛。
+There are many places in the front that mention the compiler. What is it? - The code translator, which was explained more or less in the previous chapters. But I don't mind explaining it again here. Yes, as mentioned in the previous article, the program is actually a collection of instructions in the form of electrical pulses - this is absolutely correct for the machine. But do you think humans can directly operate electrical pulses? - Of course not. So at the earliest, programmers did this by repeatedly turning the switch or plugging in and out, just like the telephone operator and the dispatcher in the old movie. The following picture shows two programs for writing programs to ENIAC.
 
-![给ENIAC写程序的两只程序媛](../images/eniac4.jpg)
+![Two programs to write programs to ENIAC] (../images/eniac4.jpg)
 
-后来技术进化了，人们可以把脉冲信号设置在打了孔的纸带上，然后让纸带穿过有灯管的感应器，有孔电路就通，没有就是断，由纸带机实现了在电脉冲和纸带之间转换。老电影里的工程师们经常拿起一条长长的纸带来阅读——真是高深莫测啊！不过即使这样，要理解程序还是很困难，更别说阅读编写和修改了，人毕竟不是机器。下图为80列、矩形孔的标准的IBM打孔卡片，相当于存储器。
+Later, the technology evolved. People can set the pulse signal on the punched paper tape, and then let the paper tape pass through the sensor with the light pipe. The hole circuit will pass, and it will not be broken. It is realized by the tape machine. Switch between electric pulse and paper tape. The engineers in the old movie often pick up a long piece of paper to read - really inscrutable! But even then, it is still difficult to understand the program, let alone read and modify, people are not machines. The figure below shows a standard IBM punch card with 80 columns and rectangular holes, which is equivalent to memory.
 
-![IBM打孔卡片](../images/1280px-Blue-punch-card-front-horiz.png)
+![IBM Punch Card](../images/1280px-Blue-punch-card-front-horiz.png)
 
-其实人们最习惯用来表达思想的方法是文字，于是人们设想能否直接写出文字形式的程序。通过不懈的工作，这个目标实现了。今天人们可以写出文本形式的称为源代码的程序，然后再利用特定的工具把代码转换成机器能理解的电脉冲形式，也就是目标程序。这种转换工具就叫做编译器，作用相当于翻译，以前是纯粹的机电设备，到了现代它也成了程序的一种。
+In fact, the method that people are most accustomed to using to express their thoughts is words, so people envision whether they can directly write programs in the form of words. Through unremitting work, this goal has been achieved. Today, people can write a program called source code in text form, and then use a specific tool to convert the code into a form of electrical pulse that the machine can understand, that is, the target program. This conversion tool is called a compiler. It functions as a translation. It used to be a purely electromechanical device. In modern times, it has become a program.
 
-从某种角度来说，其实没有任何人能被称为程序员，编译器才是真正的程序制造者。人所制造的只是源代码，从这个角度往下想的话，其实是程序在制造程序，换言之，程序在借助人类之手自我进化。还记得前边说过的Matrix么？
+In a way, no one can be called a programmer, and a compiler is the real programmer. What people are doing is only the source code. From this point of view, the program is actually making a program. In other words, the program is self-evolving with the help of human hands. Remember the Matrix that I said before?
 
-在这里顺便讲解下编译和解释的差别。编译器的工作本质上类同于翻译，而我们知道其实翻译有口译和笔译两种工作模式。程序员写完所有的源代码，由编译器一次性转为可执行文件留待以后执行，这种类似笔译的模式我们称为编译。程序员每次输入一行或数行代码，编译器马上把他转换并执行，接着等待程序员的后续输入，这种类似即时口译的方式就称为解释，此时编译器就被叫作解释器。C/C++ & Pascal等语言是编译型的，Perl & Python等语言就是解释型的，Java语言很特殊，他先编译成一种中间代码，然后在不同的机器上边解释边执行，这样就能实现跨平台运行，称为半编译模式，微软的.NET也是这种机理。现代的新型解释性语言很多都是半编译的——兼顾了运行效率和跨平台性。一般来说，编译型要比解释型的运行效率高些——因为不需要等待程序员的输入，也便于系统优化。但解释型在编程的时候容易排错，界面友好，而且通常程序编写比较方便，比如Python。但不管用哪种语言编程，你总需要一个编译/解释器。
+Here, by the way, explain the difference between compiling and interpreting. The work of the compiler is essentially the same as translation, and we know that translation has both working modes of interpretation and translation. The programmer writes all the source code, and the compiler converts it to an executable file at one time for later execution. This translation-like mode is called compilation. Each time the programmer enters one or more lines of code, the compiler immediately converts and executes it, and then waits for the programmer's subsequent input. This way of instant interpretation is called interpretation, and the compiler is called the interpreter. . Languages ​​such as C/C++ & Pascal are compiled, and languages ​​such as Perl & Python are interpreted. The Java language is very special. It is compiled into an intermediate code and then interpreted on different machines. The platform runs, called semi-compiled mode, and Microsoft's .NET is also this mechanism. Many of the modern new interpretive languages ​​are semi-compiled – taking into account operational efficiency and cross-platformity. In general, compiled is more efficient than interpreted - because there is no need to wait for programmer input and system optimization. However, the interpreted type is easy to debug when programming, the interface is friendly, and usually the program is more convenient to write, such as Python. But no matter which language you use to program, you always need a compiler/interpreter.
 
-现代的编译器，往往不止是编译器，它还会包含有着色和搜索等功能的代码编辑器，支持单步调试并行调试的调试器，能够读入文件的多个版本并进行比较分析的版本控制，编辑图标等的资源编辑器，在大型项目中用于统一协调的项目管理，和用于自动化代码生成的向导工具等等。这样的编译器，我们就称它为集成开发环境(IDE:Integrated development environment )，代表就是[开放源代码](http://zh.wikipedia.org/wiki/%E5%BC%80%E6%94%BE%E6%BA%90%E4%BB%A3%E7%A0%81)的[Eclipse](http://zh.wikipedia.org/wiki/Eclipse)和稍微有点软那个公司的[Visual Studio](http://zh.wikipedia.org/wiki/Visual_Studio)系列。
+Modern compilers, often more than just compilers, include code editors for shading and searching, debuggers that support single-step debugging, and multiple versions of files that can be compared and analyzed. Resource editor for control, editing icons, etc., for unified project management in large projects, and wizard tools for automated code generation. Such a compiler, we call it an integrated development environment (IDE: Integrated development environment), the representative is [open source] (http://en.wikipedia.org/wiki/%E5%BC%80%E6% 94%BE%E6%BA%90%E4%BB%A3%E7%A0%81)[Eclipse](http://en.wikipedia.org/wiki/Eclipse) and slightly softer that company's [Visual Studio] (http://en.wikipedia.org/wiki/Visual_Studio) series.
 
 ### Notes
 
-<a name="ref1">[1]</a> 关于语言词汇和语法上的详细说明可参考[程序的基本概念-自然语言和形式语言](http://songjinshan.com/akabook/zh/intro.html#intro-naturalformallang)
+<a name="ref1">[1]</a> For a detailed description of the language vocabulary and grammar, please refer to [Basic Concepts of the Program - Natural Language and Formal Language](http://songjinshan.com/akabook/zh/intro.html#intro-naturalformallang)

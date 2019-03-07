@@ -1,20 +1,20 @@
-# 第三章-编程进阶-数据结构与算法
+# Chapter 3 - Programming Advanced - Data Structures and Algorithms
 
-首先让我们看看Wikipedia上对数据结构和算法的定义。
+Let us first look at the definition of data structures and algorithms on Wikipedia.
 
-> 数据结构（Data Structure）是计算机中存储、组织数据的方式。通常情况下，精心选择的数据结构可以带来最优效率的算法。
+> Data Structure is the way in which data is stored and organized in a computer. Often, carefully chosen data structures can lead to algorithms that are optimally efficient.
 
-> 算法（Algorithm）是指完成一个任务所需要的具体步骤和方法。也就是说给定初始状态或输入数据，能够得出所要求或期望的终止状态或输出数据。
+> Algorithm refers to the specific steps and methods required to complete a task. That is to say, given the initial state or input data, it is possible to derive the required or desired termination state or output data.
 
-算法和数据结构就是程序里的修辞手法和谋篇布局。人类编程虽然不过几十年，但运用程序所解决的问题，已经覆盖世界的每个角落各个方面。各种各样的问题，被前辈和大师提炼归纳，有些人直接找出了解决的方法，有些人找到了寻找解决方法的途径，还有些人索性证明了在现阶段是不可能解决的，这些解决方案就被统称为算法。学习算法就是学习前人的智慧，少走弯路。禅语有云：不走弯路就是捷径！！！连牛顿爵士都是站在巨人的肩膀上的，除非你自我感觉比老牛还牛，凭空就能解决别人十几年才想清楚的问题。为了更形象的说明这一关系，下面我们来玩一个经典的数学游戏：
+The algorithm and data structure are the rhetoric and layout of the program. Although human programming has only been for decades, the problems solved by the application have covered every aspect of the world. Various problems were summarized by seniors and masters. Some people directly found solutions. Some people found ways to find solutions. Some people simply proved that it is impossible to solve them at this stage. The solution is collectively referred to as an algorithm. Learning algorithms is to learn the wisdom of predecessors and to take less detours. Zen has a cloud: not taking a detour is a shortcut! ! ! Even Newton Jazz is standing on the shoulders of giants, unless you feel better than the old cows, you can solve the problems that others have been thinking for more than a decade. To illustrate this relationship more vividly, let's play a classic math game:
 
-> 有三个瓶子，容量分别为两升、三升、七升，现在要快速准确量出六升的水，请问该怎样得到？
+> There are three bottles with capacities of two liters, three liters, and seven liters. Now it is necessary to quickly and accurately measure six liters of water. How can I get it?
 
-显然我们必须用这三个瓶子组合起来才能得到准确的六升水，那如何得到呢？我想聪明的你肯定很快就有了答案。接下来的问题就是怎么用算法表示出来呢？——这就是在考验我们的数学思维能力了。瓶子装水这一类问题抽象出来其实就是一个求整系数多项式方程整数解的问题。OK，点到为止。
+Obviously we have to combine these three bottles to get an accurate six liters of water. How do we get it? I think smart, you must have an answer soon. The next question is how to use the algorithm to express it? - This is testing our mathematical thinking ability. The abstraction of the problem of bottled water is actually a problem of finding the integer solution of the polynomial equation of the integral coefficient. OK, click here.
 
-按照Wikipedia上对数据结构的定义，我们可以把上边装水的瓶子类比为数据结构——瓶子在人的干预下干了装水和倒水的工作，通过三个步骤——你的算法，最终实现了在七升的瓶子中装了六升的水。通过三个瓶子才能得到六升水，这种事肯定不是聪明的人想出来的，那么聪明一点的人会怎么想呢？——找一个六升的瓶子不就一步完成了嘛！所以说有时找到了合适的数据结构该是多重要...
+According to the definition of data structure on Wikipedia, we can compare the bottle with water on top to the data structure - the bottle is filled with water and pour water under human intervention, through three steps - your algorithm, and finally It achieved six liters of water in a seven-liter bottle. It takes six bottles of water to get six liters of water. This kind of thing is definitely not something that smart people think of, so what would a smart person think? - Finding a six-liter bottle is not a step! So sometimes it is important to find the right data structure...
 
-前辈们已经总结出很多算法和产生算法的方法，我们可以直接学习。如果你积极进取，总有一天，你会发现有需要自己开创新的算法的时候。这个时候，数学功底会帮你很大的忙。也许只是数学工具在起作用，但更有可能的是你的大脑受过的数学思想训练在帮助你。总之，为了前途着想，提高数学素养是没错的。这不是说多背数学公式和多做数学题，而是指一种**数学的思维方式。**
+The predecessors have summed up a lot of algorithms and methods to generate algorithms, we can learn directly. If you are aggressive, one day, you will find that you need to create innovative algorithms yourself. At this time, mathematics will help you a lot. Maybe just a math tool is working, but it's more likely that your brain is trained in mathematics to help you. In short, for the sake of the future, it is right to improve mathematics literacy. This is not to say that there are more mathematical formulas and more math problems, but rather a kind of mathematical thinking.。**
 
 学算法很简单，也是找教材，做习题。教材容易找，但新手往往找不到合适的习题。可以尝试在完成教材上的所有习题之后去找编程竞赛的练习题来做,也就是所谓的 [Online Judge](http://en.wikipedia.org/wiki/Online_judge)，后续将深入讨论这个东西。
 
