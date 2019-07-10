@@ -1,11 +1,17 @@
 {
-    "name": "book",
-    "version": "0.0.0",
-    "dependencies": {
-        "gitbook-plugin-disqus": "*",
-        "gitbook-plugin-ga": "*",
-        "gitbook-plugin-yahei": "*",
-        "gitbook-plugin-katex": "*",
-        "gitbook-plugin-richquotes": "*"
-    }
+  "name": "book",
+  "version": "0.0.0",
+  "dependencies": {
+    "gitbook-plugin-disqus": "*",
+    "gitbook-plugin-ga": "*",
+    "gitbook-plugin-yahei": "*",
+    "gitbook-plugin-katex": "*",
+    "gitbook-plugin-richquotes": "*",
+    "snyk": "^1.192.4"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
