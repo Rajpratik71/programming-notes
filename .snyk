@@ -6,3 +6,8 @@ patch:
   'npm:lodash:20180130':
     - gitbook-plugin-richquotes > cheerio > lodash:
         patched: '2019-07-10T08:38:36.614Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-10T08:41:39.396Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-10T08:41:39.396Z'
